@@ -67,7 +67,7 @@ If any flag is missing, ask for it before proceeding. The vulnerability content 
  
 ### 3. Concise but Complete
 - Short enough to read in under 1 minute
-- No filler text — every sentence must add value
+- No filler text - every sentence must add value
  
 ### 4. Code References with Relative Links
 Always use relative markdown links when referencing code:
@@ -111,7 +111,7 @@ Exactly why the vulnerability exists. Include code references.
 Step-by-step explanation of the faulty logic and resulting incorrect state.
  
 ## Impact
-Real consequence — who can exploit it, what they gain.
+Real consequence - who can exploit it, what they gain.
 Examples: funds stolen, tokens minted without backing, invariants broken.
  
 ## Proof of Concept (if applicable)

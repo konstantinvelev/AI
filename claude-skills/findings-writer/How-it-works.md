@@ -1,4 +1,4 @@
-# findings-writer — How It Works
+# findings-writer - How It Works
 
 Convert vulnerabilities discussed or explained in your Claude Code session into professional, judge-proof audit findings and append them directly to a markdown file.
 
@@ -6,11 +6,11 @@ Convert vulnerabilities discussed or explained in your Claude Code session into 
 
 ## Getting Started
 
-**Option A — Download the skill**
+**Option A - Download the skill**
 
 Drop `findings-writer.skill` into your Claude Code skills directory (typically `~/.claude/skills/` or your project's `.claude/skills/`). Claude Code will automatically detect and load it.
 
-**Option B — Copy-paste**
+**Option B - Copy-paste**
 
 Copy the contents of `findings-writer.md` directly into your project's `CLAUDE.md` or any skills file you already maintain. No installation needed.
 
@@ -48,10 +48,10 @@ If any flag is missing, the skill will ask for it before proceeding.
 
 ## Typical Workflow
 
-1. Discuss a vulnerability in the chat — paste code, describe the issue, trace the attack path.
+1. Discuss a vulnerability in the chat - paste code, describe the issue, trace the attack path.
 2. Once the bug is well understood, run `/write-the-finding` with your flags.
 3. The skill reads the conversation context, writes a complete finding, and **appends** it to your file.
-4. Repeat for the next finding — existing findings are never overwritten.
+4. Repeat for the next finding - existing findings are never overwritten.
 
 If the target file does not exist yet, it is created with a `# Security Findings` header automatically.
 

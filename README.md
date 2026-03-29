@@ -1,14 +1,14 @@
-# Web3 Security — Claude Code Skills
+# Web3 Security - Claude Code Skills
 
 A collection of Claude Code skills built for Web3 security researchers and smart contract auditors from one of them.🫡
 
-Each skill plugs directly into Claude Code and extends it with purpose-built workflows for security work — turning your AI assistant into a sharper auditing tool without changing how you already work.
+Each skill plugs directly into Claude Code and extends it with purpose-built workflows for security work - turning your AI assistant into a sharper auditing tool without changing how you already work.
 
 ---
 
 ## What are Claude Code Skills?
 
-Skills are prompt files that teach Claude Code a new slash command. Drop one into your project and Claude gains a focused new capability — no plugins, no configuration, no new tools to learn.
+Skills are prompt files that teach Claude Code a new slash command. Drop one into your project and Claude gains a focused new capability - no plugins, no configuration, no new tools to learn.
 
 ---
 
@@ -17,7 +17,7 @@ Skills are prompt files that teach Claude Code a new slash command. Drop one int
 
 ### [`/breakdown`](claude-skills/protocol-breakdown/)
 
-Builds your complete mental model of a protocol before you start hunting bugs. Reads every contract, doc, test, and script — then delivers a structured briefing covering architecture, core logic with numeric examples, money flows, invariants, and a prioritized battle plan.
+Builds your complete mental model of a protocol before you start hunting bugs. Reads every contract, doc, test, and script - then delivers a structured briefing covering architecture, core logic with numeric examples, money flows, invariants, and a prioritized battle plan.
 
 Supports **Solidity** (EVM) and **Rust** (Solana/Anchor, CosmWasm).
 
