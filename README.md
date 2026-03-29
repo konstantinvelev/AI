@@ -14,6 +14,21 @@ Skills are prompt files that teach Claude Code a new slash command. Drop one int
 
 ## Skills
 
+
+### [`/breakdown`](claude-skills/protocol-breakdown/)
+
+Builds your complete mental model of a protocol before you start hunting bugs. Reads every contract, doc, test, and script — then delivers a structured briefing covering architecture, core logic with numeric examples, money flows, invariants, and a prioritized battle plan.
+
+Supports **Solidity** (EVM) and **Rust** (Solana/Anchor, CosmWasm).
+
+```
+/breakdown
+```
+
+→ [How it works](claude-skills/protocol-breakdown/How-it-works.md)
+
+---
+
 ### [`/write-the-finding`](claude-skills/findings-writer/)
 
 Converts vulnerabilities you've discussed in your session into professional, platform-formatted audit findings and appends them to a markdown file.
