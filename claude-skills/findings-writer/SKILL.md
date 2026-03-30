@@ -1,11 +1,6 @@
 ---
 name: findings-writer
-description: >
-  Write professional smart contract security findings and append them to a file.
-  Trigger this skill ONLY when the user types the command /write-the-finding (case-insensitive).
-  The command accepts flags in any order: -file (markdown file to write to),
-  -severity as H, M, or L (High, Medium, Low), -platform as Code4rena, Sherlock, Immunefi, or Cantina (case-insensitive).
-  If any flag is missing, ask for it before proceeding.
+description: Write professional smart contract security findings and append them to a file. Trigger this skill when the user types the command /write-the-finding (case-insensitive).
 ---
  
 # Smart Contract Security Findings Writer
@@ -13,7 +8,9 @@ description: >
 Convert vulnerabilities discussed in conversation into clear, concise, judge-proof security findings and append them to a specified file.
  
 Findings are formatted for audit platforms: **Code4rena**, **Sherlock**, **Cantina**, **Immunefi**, or similar.
- 
+
+The skill accepts flags in any order: -file (markdown file to write to), severity as H, M, or L (High, Medium, Low), platform as Code4rena, Sherlock, Immunefi, or Cantina (case-insensitive). If any flag is missing, ask for it before proceeding.
+
 ---
  
 ## Inputs
